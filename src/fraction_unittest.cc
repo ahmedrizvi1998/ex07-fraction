@@ -33,7 +33,7 @@
 
 
 // Includes for google test and the unit under test.
-
+#include<cstdint>
 #include <climits>
 #include <random>
 #include <chrono>
@@ -48,7 +48,7 @@ namespace {
 using edu::vcccd::vc::csv13::Fraction;
 
 using std::string;
-
+typedef uint64_t uint;
 using namespace ::testing_internal;
 
 class FractionTest : public ::testing::Test {
